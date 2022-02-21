@@ -15,7 +15,7 @@ let userm = message.mentions.users.first() || message.author;
  
 const CalvEmbed = new Discord.MessageEmbed()
  .addField(`EL PORCENTAJE DE CALVA DE ES DE...`, `> ${calvo}\n\n ${userm} esta calvo XD`)
- .setColor("RANDOM")
+ .setColor(0x255684)
  message.channel.send(CalvEmbed)
  message.react('🥚')
 
